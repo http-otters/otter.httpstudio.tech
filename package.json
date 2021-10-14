@@ -1,0 +1,15 @@
+{
+  "name": "otter.bonee.xyz",
+  "version": "1.0.0",
+  "description": "http otters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leoo027",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "express": "^4.17.1"
+  }
+}
