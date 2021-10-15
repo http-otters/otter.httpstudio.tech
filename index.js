@@ -15,7 +15,7 @@ res.sendFile(path.resolve('./img/100.png'));
 }) ;
 
 app.get('/200', function (req, res) {
-res.sendFile(path.resolve('/img/200.png'));
+res.sendFile(path.resolve('./img/200.png'));
 }); 
 
 app.get("/404", (req, res) => {
