@@ -1,3 +1,3 @@
-# otter.bonee.xyz
+# otters.leoo.studio
 
 # 🦦 › README soon™
