@@ -1,3 +1,3 @@
 # https://otter.httpstudio.tech
 
-# 🦦 › README soon™
+# 🦦 › Comming soon.
