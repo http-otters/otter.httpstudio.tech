@@ -22,6 +22,11 @@ app.get('/413', function (req, res) {
 res.sendFile(path.resolve('./img/413.png'));
 }); 
 
+app.use(express.static(__dirname + "/public"), (_, res, next) => {
+  res.status(404)
+  res.sendFile(__dirname + "/views/404.html")
+});
+
 app.listen(80, () => {
   console.clear()
   console.log(`[APP] Iniciado com sucesso.`)
