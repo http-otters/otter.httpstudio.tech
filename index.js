@@ -10,17 +10,17 @@ app.get('/', (req, res) => {
 
 
 //status codes
-app.get('/100', function (req, res) {
-res.sendFile(path.resolve('./img/100.png'));
-}) ;
+app.get('/100', function(req, res) {
+  res.sendFile(path.resolve('./public/img/100.png'));
+});
 
-app.get('/200', function (req, res) {
-res.sendFile(path.resolve('./img/200.png'));
-}); 
+app.get('/200', function(req, res) {
+  res.sendFile(path.resolve('./public/img/200.png'));
+});
 
-app.get('/413', function (req, res) {
-res.sendFile(path.resolve('./img/413.png'));
-}); 
+app.get('/413', function(req, res) {
+  res.sendFile(path.resolve('./public/img/413.png'));
+});
 
 app.use(express.static(__dirname + "/public"), (_, res, next) => {
   res.status(404)
