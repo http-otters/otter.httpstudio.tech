@@ -1,0 +1,20 @@
+    body {
+      background-color: #696969;
+    }
+    .main {
+      text-align: center;
+      font-family: Courier New;
+    }
+    .card-body {
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+.card {
+  background-color: #4F4F4F;
+  float: left
+  
+}
