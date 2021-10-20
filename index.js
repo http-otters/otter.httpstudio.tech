@@ -18,9 +18,9 @@ app.get('/200', function (req, res) {
 res.sendFile(path.resolve('./img/200.png'));
 }); 
 
-app.get("/404", (req, res) => {
-  res.redirect('');
-});
+app.get('/413', function (req, res) {
+res.sendFile(path.resolve('./img/413.png'));
+}); 
 
 app.listen(80, () => {
   console.clear()
