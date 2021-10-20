@@ -1,3 +1,3 @@
-# otters.leoo.studio
+# https://otter.httpstudio.tech
 
 # 🦦 › README soon™
