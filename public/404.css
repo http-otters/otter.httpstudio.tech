@@ -1,0 +1,21 @@
+    body {
+      background-color: #696969;
+    }
+    .main {
+      text-align: center;
+      font-family: Courier New;
+      color: white;
+    }
+    #buttons {
+    border: 2px solid #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 15px;
+    color: #fff;
+    transition: 0.3s background, 0.3s color;
+    width: 100px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    position: relative;
+}
