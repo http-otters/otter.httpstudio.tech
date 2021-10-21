@@ -1,7 +1,7 @@
 const express = require('express');
 const {resolve} = require('path');
 const app = express();
-
+// leo tira a nuvem da cloudflare
 app.use(express.static('views'))
 
 
@@ -34,16 +34,8 @@ app.get('/', (req, res) => {
 //api
 
 //status codes
-app.get('/api/100', function(req, res) {
-  res.sendFile(resolve('./public/img/100.png'));
-});
-
-app.get('/api/200', function(req, res) {
-  res.sendFile(resolve('./public/img/200.png'));
-});
-
-app.get('/api/413', function(req, res) {
-  res.sendFile(resolve('./public/img/413.png'));
+app.get('/api/:img', function(req, res) {
+  res.sendFile(resolve(`./public/img/${req.params.img}.png`));
 });
 
 

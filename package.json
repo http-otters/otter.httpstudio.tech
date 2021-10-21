@@ -4,13 +4,14 @@
   "description": "http otters",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ."
   },
   "author": "Leoo027",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.1.3",
     "express": "^4.17.1",
-    "express-rate-limit": "^5.5.0"
+    "express-rate-limit": "^5.5.0",
+    "express-slow-down": "^1.4.0"
   }
 }
