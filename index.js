@@ -34,7 +34,7 @@ app.get('/', (req, res) => {
 
 //status codes
 app.get('/api/:img', function(req, res) {
-  res.sendFile(resolve(`./public/img/${req.params.img}.png`));
+  res.sendFile(resolve(`./public/img/response_codes/${req.params.img}.png`));
 });
 
 
