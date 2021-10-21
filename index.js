@@ -5,6 +5,17 @@ const app = express();
 app.use(express.static('views'))
 
 
+const slowDown = require("express-slow-down");
+
+
+const speedLimiter = slowDown({
+  windowMs: 1 * 60 * 1000, // 1 minutes
+  delayAfter: 10, // allow 30 requests per 1 minutes, then...
+  delayMs: 200 // begin adding 200ms of delay per request above 30:
+});
+
+//  apply to all requests
+app.use(speedLimiter);
 
 // set up rate limiter
 const rateLimit = require("express-rate-limit");
