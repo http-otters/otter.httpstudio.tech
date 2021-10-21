@@ -1,7 +1,6 @@
 const express = require('express');
 const {resolve} = require('path');
 const app = express();
-// leo tira a nuvem da cloudflare
 app.use(express.static('views'))
 
 
