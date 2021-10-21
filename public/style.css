@@ -6,7 +6,6 @@
       font-family: Courier New;
     }
     .card-body {
-    margin-top: 10px;
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -14,9 +13,11 @@
     border-radius: 20px;
 }
 .card {
+  margin-top: 20px;
   background-color: #949494;
   width: 18rem;
   margin-left: 20px;
+  background-clip: border-box;
   border-radius: 20px;
   float: left;
   transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.3s;
@@ -28,4 +29,9 @@
 }
 .card-img-top {
   border-radius: 20px;
+}
+.btn:hover {
+  box-shadow: 0 0 12px 0.5px #cecece;
+  transform: translateY(-0.20em);
+
 }
