@@ -23,6 +23,7 @@ app.get('/', (req, res) => {
 
 //api
 
+//status codes
 app.get('/api/100', function(req, res) {
   res.sendFile(resolve('./public/img/100.png'));
 });

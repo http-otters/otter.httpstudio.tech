@@ -1,3 +1,4 @@
 # https://otter.httpstudio.tech
 
-# 🦦 › Comming soon.
+# 🦦 › API for HTTP Otters!
+#### More info comming soon.
