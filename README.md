@@ -17,4 +17,6 @@ Once they're done, make a pull request to the master branch if you are contribut
 
 HTTP Otter: **[otters.httpstudio.tech](https://otters.httpstudio.tech)**
 
+<img src="https://img.shields.io/badge/license-Apache--2.0%20License-orange">
+
 <img src="https://socialify.git.ci/http-otters/otter.httpstudio.tech/image?description=1&font=Source%20Code%20Pro&forks=1&language=1&owner=1&pattern=Solid&pulls=1&stargazers=1&theme=Dark">
