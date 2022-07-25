@@ -1,3 +1,5 @@
+# **Project archived, thanks for the support** ❤
+
 #### 🌍 › HTTP Otters is a simple but cool project. Developed by young Brazilians, who love programming
 
 # ❤ › Contribute:
